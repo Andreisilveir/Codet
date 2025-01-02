@@ -227,6 +227,30 @@ footer {
 
 }
 
+#fechar {
+
+    background-color: lightgray;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 248px;
+    right: 27px;
+    border: none;
+    border-radius: 50% 50% 50% 50%; 
+    cursor: pointer;
+
+}
+
+#botaof {
+
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 252.5px;
+    right: 32.3px;
+
+}
+
 #tituloa {
 
     font-size: 17px;
