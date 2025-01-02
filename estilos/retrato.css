@@ -1,0 +1,399 @@
+@charset "UTF-8";
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+html, body {
+
+    height: 100vh;
+    width: 100vw;
+    
+
+}
+
+header {
+
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+
+}
+
+.titulo {
+
+    font-size: 35px;
+    display: flex;
+    position: relative;
+    top: 20%;
+    left: 48%;
+    transform: translate(-50%, -90%);
+    padding-bottom: 10px;
+    width: 150px;
+    height: 30px;
+
+}
+
+#marca {
+
+    text-decoration: none;
+    color: purple;
+
+}
+
+menu {
+
+    width: 40px;
+    height: 40px;
+
+}
+
+#menuu {
+
+    width: 33px;
+    height: 28px;
+    display: flex;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    text-decoration: none; 
+
+}
+
+#menu {
+
+    width: 33px;
+    height: 28px; 
+
+}
+
+#login {
+
+    width: 43px;
+    height: 37px;
+    border-radius: 50% 50% 50% 50%;
+    display: flex;
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    text-decoration: none;
+    
+}
+
+#ilogin {
+
+    width: 44px;
+    height: 38px;
+
+}
+
+.heade {
+
+    display: none;
+
+}
+
+#textos {
+
+    text-align: center;
+    
+}
+
+#titulos {
+
+    text-align: center;
+    padding: 15px 0px 10px 0px;
+
+}
+
+.textos {
+
+    padding: 10px 0px 0px 10px;
+
+}
+
+.perguntas {
+
+    background-color: gray;
+    margin: 20px 0px 0px 10px;
+    width: 450px;
+    height: 70px;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+
+}
+
+.respostas {
+
+    display: none;
+    margin: 0px 0px 10px 10px;
+    background-color: lightgray;
+    width: 430px;
+    height: 60px;
+    padding: 10px 10px 0px 10px;
+
+}
+
+.texto {
+
+    padding: 10px 0px 0px 10px;
+
+}
+
+hr {
+
+    width: 550px;
+
+}
+
+.contatos {
+
+    width: 300px;
+    height: 300px;
+    background-color: lightgray;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px auto 0px auto;
+    box-shadow: 1px 1px 5px 0.5px black;
+    border-radius: 10px;
+
+}
+
+.imagem {
+
+    width: 50px;
+    height: 50px;
+    padding: 40px 0px 20px 0px;
+
+}
+
+.online {
+
+    margin: 5px 0px 10px 0px;
+    color: green;
+
+}
+
+.botao {
+
+    width: 88px;
+    height: 42px;
+    margin: 10px 0px 10px 0px;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+#emaill {
+
+    display: none;
+
+}
+
+#emial1 {
+
+    font-size: 14px;
+    padding: 10px 0px 10px 0px;
+
+}
+
+#atendimento {
+
+    display: none;
+    position: fixed;
+    right: 0px;
+    bottom: 10px;
+    width: 320px;
+    height: 420px;
+    background-color: white;
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    
+}
+
+footer {
+
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+
+}
+
+#tituloa {
+
+    font-size: 17px;
+    padding-top: 10px;
+    background-color: lightgray;
+    height: 34px;
+
+}
+
+#ichat {
+
+    position: fixed;
+    bottom: 45px;
+    right: 78px;
+    width: 230px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 5px;
+
+}
+
+#envio {
+
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 32px;
+    right: 26px;
+    border: none;
+    background-color: white;
+    border-radius: 50% 50% 50% 50%;
+    cursor: pointer;
+
+}
+
+#enviar {
+
+    width: 30px;
+    height: 30px;
+
+}
+
+#fechar {
+
+    background-color: lightgray;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 270px; 
+    right: 24px;
+    border: none;
+    border-radius: 50% 50% 50% 50%; 
+    cursor: pointer;
+
+}
+
+#botaof {
+
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 275.5px;
+    right: 29.2px;
+
+}
+
+#duvidas {
+
+    display: none;
+    position: fixed;
+    right: 0px;
+    bottom: 1px;
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    
+
+}
+
+#tituloa {
+
+    text-align: center;
+
+}
+
+#fechar1 {
+
+    background-color: lightgray;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 248px;
+    right: 27px;
+    border: none;
+    border-radius: 50% 50% 50% 50%; 
+    cursor: pointer;
+
+}
+
+#botaof1 {
+
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 252.5px;
+    right: 32.3px;
+
+}
+
+#relatorio {
+
+    padding-left: 10px;
+    font-size: 20px; 
+
+}
+
+#inome {
+
+    padding-left: 5px;
+    margin-top: 15px;
+    width: 210px;
+    font-size: 17px;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+
+}
+
+#relatorio1 {
+
+    position: fixed;
+    right: 239px;
+    bottom: 365px;
+    font-size: 19px;  
+
+}
+
+#iassunto {
+
+    margin: 30px 0px 0px 10px;
+    padding-left: 10px;
+    height: 300px;
+    width: 265px;
+    font-size: 17px;
+
+}
+
+#botaoe {
+
+    margin: 3px 0px 0px 15px;
+    height: 25px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+
+}
+
+#botaol {
+
+    margin: 0px 0px 0px 10px;
+    height: 25px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+
+}

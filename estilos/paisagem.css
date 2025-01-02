@@ -1,0 +1,496 @@
+@charset "UTF-8";
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html, body {
+
+    height: 100vh;
+    width: 100vw;
+
+
+}
+
+html {
+
+    font-size: 16px;
+}
+
+header {
+
+    background-color: black;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+
+}
+
+.titulo {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-left: 30px;
+
+}
+
+#marca {
+
+    text-decoration: none;
+    color: purple;
+    font-size: 2.1rem;
+
+}
+
+#marca:hover {
+
+    color: magenta;
+}
+
+
+
+#menu {
+
+    display: none;
+
+}
+
+#login {
+
+    width: 47px;
+    height: 45px;
+    border-radius: 50% 50% 50% 50%;
+    display: flex;
+    position: absolute;
+    right: 23px;
+    top: 33px;
+    text-decoration: none;
+    
+}
+
+link {
+
+    width: 50px;
+    height: 50px;
+
+}
+
+#ilogin {
+
+    width: 44px;
+    height: 38px;
+
+}
+
+#login:hover {
+
+    transform: translate(-8px, -5px);
+    transition: 0.3s;
+
+}
+
+.heade {
+
+    display: block;
+    margin: 1px auto;
+    padding: 100px;
+    font-size: 1.1rem;
+
+}
+
+.heade a {
+
+    text-decoration: none;
+    color: purple;
+    padding: 15px 20px;
+
+}
+
+.heade a:hover {
+
+    color: magenta;
+
+}
+
+#text {
+
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+
+}
+
+#info {
+
+    padding-top: 20px;
+    text-indent: 20px;
+    font-size: 18px;
+
+}
+
+#titulos {
+
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.textos {
+
+    padding: 30px 0px 10px 20px;
+
+}
+
+.texto {
+
+    padding-left: 20px;
+}
+
+hr {
+
+    margin-bottom: 10px;
+    width: 700px;
+}
+
+.perguntas {
+
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+    background-color: gray;
+    width:80%;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.perguntas:hover {
+
+    transform: translate( 10px, -5px);
+    transition: 0.5s;
+}
+
+.respostas {
+
+    display: none;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    background-color: lightgray;
+    width: 78%;
+    height: 60px;
+    padding: 30px 10px 0px 10px;
+    margin-top: 20px; 
+    margin-left: 10px; 
+    border-radius: 10px; 
+    text-align: center;
+
+}
+
+.contatos {
+
+    display: inline-block;
+    width: 350px;
+    height: 250px;
+    margin: 20px 0px 0px 20px;
+    border-radius: 10px;
+    background-color: lightgray;
+    text-align: center;
+    box-shadow: 1px 1px 5px 0.5px black;
+
+}
+
+.imagem {
+
+    margin: 20px 0px 10px 0px;
+    width: 40px;
+    height: 40px;
+}
+
+#telefone {
+
+    font-size: 17px;
+    margin-left: 150px;
+
+}
+
+.online {
+
+    padding: 10px 0px 10px 0px;
+    color: green;
+}
+
+#numero {
+
+    padding: 10px 0px 10px 0px;
+
+}
+
+.botao {
+
+    margin: 10px 0px 10px 0px;
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#contato {
+
+    margin-left: 250px;
+
+}
+
+#emial {
+
+    padding: 5px 0px 5px 0px;
+    font-size: 16px;
+
+}
+
+button:hover {
+
+    background-color: gray;
+}
+
+#emial1 {
+
+    font-size: 13px;
+    margin: 8px 0px 8px 0px;
+
+}
+
+.info {
+
+    margin-left: 10px;
+    font-size: 17px;
+    padding-top: 5px;
+
+}
+
+footer {
+
+    padding-top: 30px;
+    text-align: center;
+
+}
+
+#atendimento {
+
+    display: none;
+    position: fixed;
+    right: 0px; /* Posiciona a janela à direita */
+    bottom: 1px; /* Distância do topo */
+    width: 350px; /* Largura da janela */
+    height: 450px; /* Altura da janela */
+    background-color: white;
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    
+}
+
+#tituloa {
+
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    height: 60px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+#ichat {
+
+    position: fixed;
+    bottom: 35px;
+    right: 80px;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 270px;
+    height: 25px;
+    padding-left: 10px;
+
+}
+
+#enviar {
+
+    position: fixed;
+    bottom: 30px;
+    right: 35px; 
+    width: 28px;
+    height: 28px;
+    text-decoration: none; 
+ 
+}
+
+#envio {
+
+    border: none;
+    background-color: white;
+    position: fixed;
+    bottom: 23px;
+    right: 27px;
+    width: 40px;  
+    height: 40px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+#envio:hover {
+
+    background-color: lightgray;
+    border-radius: 50px 50px 50px 50px;
+
+}
+
+#fechar1 {
+
+    background-color: lightgray;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50% 50% 50% 50%;
+    position: fixed;
+    right: 30px;
+    top: 255px;
+    cursor: pointer;
+
+}
+
+#botaof1 {
+
+    background-color: lightgray;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50% 50% 50% 50%;
+    position: fixed;
+    right: 35px;
+    top: 260px;
+    text-decoration: none;
+
+}
+
+#fechar1:hover {
+
+    background-color: rgb(193, 190, 190);
+
+}
+
+#duvidas {
+   
+   display: none; 
+    position: fixed;
+    right: 0px;
+    bottom: 1px;
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    
+}
+
+ #relatorio {
+
+    padding: 15px 0px 0px 10px;
+    font-size: 20px;
+
+}
+
+#inome {
+
+    margin: 15px 0px 0px 0px;
+    width: 260px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 7px;  
+
+}
+
+#relatorio1 {
+
+    padding: 15px 0px 0px 10px;
+    font-size: 20px;
+    display: flex;
+    position: fixed;
+    bottom: 340px;
+ 
+}
+
+#iassunto {
+
+    margin: 15px 0px 0px 0px;
+    padding-bottom: 100px;
+    width: 230px;
+    display: flex;
+    position: fixed;
+    bottom: 227px; 
+    right: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 7px;
+
+}
+
+#botaoe {
+
+    display: flex;
+    position: fixed;
+    bottom: 180px;
+    right: 290px;
+    width: 70px;
+    height: 30px;
+    padding: 2px 0px 0px 2px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(117, 117, 236);
+    color: white;
+
+}
+
+#botaoe:hover {
+
+    background-color: rgb(8, 8, 144);
+
+}
+
+#botaol {
+
+    display: flex;
+    position: fixed;
+    bottom: 180px;
+    right: 210px;
+    width: 70px;
+    height: 30px;
+    padding: 2px 0px 0px 2px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(117, 117, 236);
+    color: white;
+
+}
+
+#botaol:hover {
+
+    background-color: rgb(8, 8, 144);
+
+}

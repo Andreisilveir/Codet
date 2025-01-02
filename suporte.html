@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codetests</title>
+    <link rel="shortcut icon" href="img/www.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="estilos/screen.css" media="all">
+
+    <link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation: portrait)">
+
+    <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)">
+
+</head>
+<body>
+    
+    <header>
+
+        <menu>
+
+            <div id="menuu">
+
+                <a href="#">
+
+                    <img id="menu" src="img/menu-aberto.png" alt="menu">
+                
+                </a>
+
+            </div>
+        
+        </menu>
+        
+        <div class="titulo">
+
+            <div><a id="marca" href="sobre.html" target="_self">Codetests</a></div>
+        
+        </div>
+
+        <div class="heade">
+
+            <a href="Index.html" target="_self" >Inicio</a>
+
+            <a href="quiz.html" target="_self">Quiz</a>
+
+            <a href="Sobre.html" target="_self">Sobre</a>
+            
+            <a href="Suporte.html" target="_self">Suporte</a>
+
+        </div>
+
+        <div id="login">
+
+            <a href="#" id="link">
+                
+                <img id="ilogin" src="img/do-utilizador.png" alt="imagen de login">
+            
+            </a>
+
+        </div>
+
+        
+    </header>
+
+    <div id="suport">
+
+        <section>
+            
+            <h1 id="titulos">Seja Bem-Vindo ao Suporte!</h1>
+            
+            <h2 class="textos">Problemas comuns:</h2>
+
+            <div class="quest">
+                
+                <button class="perguntas">As respostas do formulário não são salvas.</button>
+                
+                <p class="respostas">Verifique se você está conectado à sua conta. Se você ainda tiver problemas, tente limpar o cache do seu navegador.</p>
+            
+            </div>
+
+            <div class="quest">
+                
+                <button class="perguntas">Não consigo encontrar informações de contato.
+                </button>
+                
+                <p class="respostas">Informações para contato estão mais abaixo.</p>
+            
+            </div>
+
+            <div class="quest">
+                
+                <button class="perguntas">Não consigo acessar minha conta.</button>
+                
+                <p class="respostas">Verifique se você está usando o e-mail e a senha corretos. Se ainda não conseguir, tente redefinir sua senha.</p>
+            
+            </div>
+
+            <div class="quest">
+                
+                <button class="perguntas">O site não carrega.</button>
+                
+                <p class="respostas">Verifique sua conexão com a internet. Tente recarregar a página ou acessar o site em outro navegador..</p>
+            
+            </div>
+
+            <div class="quest">
+                
+                <button class="perguntas">Os links estão quebrados.</button>
+                
+                <p class="respostas">Se você encontrar um link que não funciona, por favor, nos informe pelo suporte. Estamos sempre atualizando nosso conteúdo.</p>
+            
+            </div>
+
+            <div class="quest">
+            
+                <button class="perguntas">O quiz não está carregando.</button>
+            
+                <p class="respostas">Tente atualizar a página ou verificar sua conexão com a internet. Se o problema persistir, entre em contato com o suporte.</p>
+            
+            </div>
+
+            <div class="quest">
+            
+                <button class="perguntas">Recebo uma mensagem de erro ao tentar enviar minhas respostas.</button>
+            
+                <p class="respostas">Certifique-se de que todas as perguntas foram respondidas. Se o erro continuar, por favor, informe-nos.</p>
+            
+            </div>
+
+            <div class="quest">
+            
+                <button class="perguntas">Não consigo jogar.</button>
+            
+                <p class="respostas">Acesse a aba sobre, lá está explicando em detalhe como jogar. Caso não funcione entre em contato com nossa equipe.</p>
+            
+            </div>
+
+            <h2 class="textos">Atendimento ao cliente</h2>
+
+            <p class="texto">Dúvidas? Entre em contato com nossos canais de atendimento</p>
+
+            <br>
+
+            <hr>
+
+            <p class="texto">Nosso atendimento é de <strong>segunda à sexta, das 08:00 às 20:00, e aos sábados, das 09:00 às 15:00 </strong> - Horário de Brasília (UTC -3). Não atendemos aos domingos e em feriados nacionais.</p>
+
+            <div class="contatos" id="telefone">
+
+                <img class="imagem" src="img/telephone.png" alt="telefone">
+
+                <p>Telefone</p>
+
+                <p class="online">Online</p>
+
+                <p id="numero">(48) 99921-1805</p>
+
+            </div>
+
+            <div class="contatos" id="chat">
+
+                <img class="imagem" src="img/chat.png" alt="balao de conversa">
+
+                <p >Chat de atendimento</p>
+
+                <p class="online">Online</p>
+
+                <button class="botao" onclick="togglePopup()">Iniciar atendimento</button>
+
+                <form  action="cadastro.py" method="get" id="atendimento">
+
+                    <h3 id="tituloa">Envie-nos uma mensagem</h3>
+    
+                    <button id="envio">
+    
+                        <img id="enviar" src="img/enviar.png" alt="botao de enviar">
+                    
+                    </button>
+
+                    <div  id="fechar" onclick="togglePopup()">
+
+                        <img id="botaof" src="img/botao-x.png" alt="fechar site">
+
+                    </div>
+    
+                    <input type="text" name="chat" id="ichat">
+    
+                </form>
+
+            </div>
+
+            <div class="contatos" id="email">
+
+                <img class="imagem" src="img/mail.png" alt="simbolo do email">
+
+                <p id="emial">Nos envie suas duvida</p>
+
+                <p id="emial1">Responderemos em até 1 dia útil</p>
+
+                <button class="botao" onclick="togglePopup1()">Enviar duvidas</button>
+                
+            </div>
+
+            <form action="cadastro.py" method="get" id="duvidas">
+
+                <h3 id="tituloa">Nos envie suas duvidas</h3>
+
+                <div  id="fechar1" onclick="togglePopup1()">
+
+                    <img id="botaof1" src="img/botao-x.png" alt="fechar site">
+    
+                </div>
+
+                <label id="relatorio" for="inome">Nome:</label>
+
+                <input type="text" name="nome" id="inome" required maxlength="25" placeholder="Nome completo">
+
+                <label id="relatorio1">Assunto:</label>
+
+                <textarea name="assunto" id="iassunto" placeholder="Sua duvida aqui!" required></textarea>
+
+                <input id="botaoe" type="submit" value="Enviar">
+
+                <input id="botaol" type="reset" value="Limpar">
+
+            </form>
+
+        </section>
+
+    </div>
+
+            <script>
+                const perguntas = document.querySelectorAll('.perguntas');
+                
+                perguntas.forEach(pergunta => {
+                    pergunta.addEventListener('click', () => {
+                        const resposta = pergunta.nextElementSibling; // Seleciona o próximo elemento (p)
+                        resposta.style.display = resposta.style.display === 'none' || resposta.style.display === '' ? 'block' : 'none';
+                    });
+                });
+            </script>
+            
+            <script>
+                function togglePopup() {
+                    var popup = document.getElementById("atendimento");
+                    if (popup.style.display === "none" || popup.style.display === "") {
+                        popup.style.display = "block"; // Exibe a janela
+                    } else {
+                        popup.style.display = "none"; // Oculta a janela
+                    }
+                }
+            </script>
+
+            <script>
+
+                function togglePopup1() {
+                    var popup = document.getElementById("duvidas");
+                    if (popup.style.display === "none" || popup.style.display === "") {
+                        popup.style.display = "block"; // Exibe a janela
+                    } else {
+                        popup.style.display = "none"; // Oculta a janela
+                    }
+                }
+            </script>
+
+    </div>
+
+    <footer>
+
+        <p>© 2024 Codetests. Todos os direitos reservados.</p>
+
+    </footer>
+
+</body>
+</html>
