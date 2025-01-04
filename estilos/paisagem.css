@@ -1,42 +1,36 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dosis:wght@200..800&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 * {
 
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-family: "Cormorant Garamond";
 
 }
 
-html, body {
+body {
 
     height: 100vh;
     width: 100vw;
-    overflow-x: hidden;
 
-}
-
-html {
-
-    font-size: 16px;
 }
 
 header {
 
     background-color: black;
+    width: 100vw;
+    height: 13vh;
     display: flex;
     align-items: center;
-    width: 100%;
-    height: 100px;
-
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.titulo {
+#marcas {
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-    padding-left: 30px;
+    font-size: 4cqmax;
+    padding-left: 20px;
 
 }
 
@@ -44,74 +38,6 @@ header {
 
     text-decoration: none;
     color: purple;
-    font-size: 2.1rem;
-
-}
-
-#marca:hover {
-
-    color: magenta;
-}
-
-
-
-#menu {
-
-    display: none;
-
-}
-
-#login {
-
-    width: 50px;
-    height: 44px;
-    margin: 5px 0px 0px 0px;
-    border-radius: 50% 50% 50% 50%;
-    position: relative;
-    right: 23px;
-    top: 0px;
-    text-decoration: none;
-
-    
-}
-
-#ilogin {
-
-    position: relative;
-    right: -2.8px;
-    top: 3px;
-    width: 44px;
-    height: 38px;
-
-}
-
-#login:hover {
-
-    transform: translate(-8px, -5px);
-    transition: 0.3s;
-
-}
-
-.heade {
-
-    display: block;
-    margin: 1px auto;
-    padding: 100px;
-    font-size: 1.1rem;
-
-}
-
-.heade a {
-
-    text-decoration: none;
-    color: purple;
-    padding: 15px 20px;
-
-}
-
-.heade a:hover {
-
-    color: magenta;
 
 }
 
@@ -119,7 +45,7 @@ header {
 
     padding-top: 20px;
     padding-left: 20px;
-    font-size: 20px;
+    
 
 }
 
