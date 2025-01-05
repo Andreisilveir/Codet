@@ -128,7 +128,6 @@ a {
 
 #login {
 
-    background-color: green;
     width: 5.5vw;
     height: 5.1vw;
     border: none;
@@ -141,6 +140,18 @@ a {
 
     transform: translate(-10px, -10px);
     transition: 0.3s;
+
+}
+
+#botaom {
+
+    display: none;
+
+}
+
+#btf {
+
+    display: none;
 
 }
 
