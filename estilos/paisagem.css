@@ -1,12 +1,10 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dosis:wght@200..800&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
 * {
 
     margin: 0px;
     padding: 0px;
-    font-family: "Cormorant Garamond";
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
@@ -14,6 +12,7 @@ body {
 
     height: 100vh;
     width: 100vw;
+    font-size: 16px;
 
 }
 
@@ -21,16 +20,17 @@ header {
 
     background-color: black;
     width: 100vw;
-    height: 13vh;
+    height: 11vw;
     display: flex;
     align-items: center;
-    font-family: 'Times New Roman', Times, serif;
+
 }
 
 #marcas {
 
-    font-size: 4cqmax;
+    text-align: left;
     padding-left: 20px;
+    font-size: 3.5vw;
 
 }
 
@@ -38,6 +38,109 @@ header {
 
     text-decoration: none;
     color: purple;
+
+}
+
+#marca:hover {
+
+    color: magenta;
+
+}
+
+nav {
+
+    display: block;
+    margin: auto;
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+#inicio {
+
+    margin-right: 10px;
+    font-size: 2vw;
+    margin-right: 20px;
+    color: purple;
+
+}
+
+#inicio:hover {
+
+    color: magenta;
+
+}
+
+#quiz {
+
+    margin-right: 10px;
+    font-size: 2vw;
+    margin-right: 20px;
+    color: purple;
+
+}
+
+#quiz:hover {
+
+    color: magenta;
+
+}
+
+#sobre {
+
+    margin-right: 10px;
+    font-size: 2vw;
+    margin-right: 20px;
+    color: purple;
+
+}
+
+#sobre:hover {
+
+    color: magenta;
+
+}
+
+#suporte {
+
+    margin-right: 10px;
+    font-size: 2vw;
+    color: purple;
+
+}
+
+#suporte:hover {
+
+    color: magenta;
+
+}
+
+#conta {
+
+    width: 5.5vw;
+    height: 5vw;
+
+}
+
+#login {
+
+    background-color: green;
+    width: 5.5vw;
+    height: 5.1vw;
+    border: none;
+    border-radius: 50% 50% 50% 50%;
+    margin-right: 30px;
+
+}
+
+#login:hover {
+
+    transform: translate(-10px, -10px);
+    transition: 0.3s;
 
 }
 
