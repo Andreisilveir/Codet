@@ -458,3 +458,66 @@ footer {
     border-radius: 5px 5px 5px 5px;
 
 }
+
+#marcacd1 {
+
+    background-color: #211E1E;
+    width: 100vw;
+    height: 550px;
+
+}
+
+#sobress {
+
+    padding: 20px 0px 20px 20px;
+    color: white;
+    font-size: 23px;
+
+}
+
+#assuntoss {
+
+    padding: 10px 40px 10px 30px;
+    font-size: 19px;
+    color: white;
+
+}
+
+strong {
+
+    color: rgb(200, 7, 200);
+    font-size: 19px;
+
+}
+
+#marcacd2 {
+
+    background-color: gray;
+    width: 100vw;
+    height: 550px;
+
+}
+
+#sobresss {
+
+    padding: 20px 0px 20px 20px;
+    color: white;
+    font-size: 23px;
+
+}
+
+#assuntosss {
+
+    padding: 10px 40px 10px 30px;
+    font-size: 19px;
+    color: white;
+
+}
+
+footer {
+
+    background-color: gray;
+    color: purple;
+    padding-top: 50px;
+
+}
