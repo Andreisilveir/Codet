@@ -670,9 +670,9 @@ strong {
 
     border: 2px solid white;
     border-radius: 8px 8px 8px 8px;
-    width: 150px;
+    width: 100px;
     height: 40px;
-    margin: 20px 0px 0px 50px;
+    margin: 20px 0px 0px 60px;
     padding-top: 10px;
     text-align: center;
     background-color: gray;
@@ -693,7 +693,7 @@ strong {
 
     background-color: rgb(93, 91, 91);
     color: rgb(212, 209, 209);
-    width: 100px;
+    width: 10vw;
     height: 30px;
     margin-left: 75px;
     padding-top: 8px;
